@@ -1,0 +1,12 @@
+.offers-list
+{
+    border: 1px solid;
+    text-align: center;
+    border-radius: 50rem;
+    padding: 10px 20px;
+}
+
+.services-img
+{
+    height: 500px;
+}

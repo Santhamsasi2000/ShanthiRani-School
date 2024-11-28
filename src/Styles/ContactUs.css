@@ -1,0 +1,98 @@
+/* ContactForm.css */
+.contact-bg
+{
+    max-width: 400px;
+}
+
+.title-address,.contact-title
+{
+    color:#2274a5;
+}
+
+form
+{
+    max-width: 600px;
+}
+
+.input-box .field
+{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+}
+
+.input-box .mess
+{
+    height: 200px;
+    resize: none;
+}
+
+.standard-select
+{
+    height: 50px;
+}
+
+@media all  and (max-width: 480px)
+{
+    form .btn-common
+    {
+        padding: 10px 90px !important;
+    }
+}
+
+@media all and (max-width:465px)
+{
+    .contact
+    {
+        margin-left: 0px !important;
+    }
+}
+/* Location.css */
+@media all and (max-width:390px)
+{
+    .email,.text-mobile
+    {
+       font-size: 12px !important;
+    }
+}
+
+.email:hover
+{
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+/* Direction.css */
+.direction
+{
+    width: 450px;
+    height: 350px;
+}
+
+@media  all and (max-width:900px) 
+{
+    .direction
+    {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media  all and (max-width:750px) 
+{
+    .direction
+    {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media  all and (max-width:360px) 
+{
+    .direction
+    {
+        width: 250px;
+        height: 200px;
+    }
+}
+

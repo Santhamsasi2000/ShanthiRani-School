@@ -1,0 +1,181 @@
+/* Header.css */
+.header
+{
+    height: 150px;
+    width: 150px;
+}
+
+/* @media  all and (max-width: 500px)
+{
+    .header
+    {
+        height: 120px;
+        width: 120px;
+    }
+} */
+
+/* Menus.css */
+
+@media all and (max-width:350px) 
+{
+    .menus
+    {
+        gap: 11px !important;
+    }
+}
+
+.navlink
+{
+    font-weight: bold;
+    background-color: white !important;
+    color:  #0D1466 !important;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+/* About.css */
+.about-img
+{
+    height: 400px;
+    width: 500px;
+}
+
+@media  all and (max-width: 500px)
+{
+    .about-img
+    {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media  all and (max-width: 500px)
+{
+    .about-img
+    {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* VideoFIle.css */
+.video
+{
+    width: 600px;
+    height: 400px;
+}
+
+@media  all and (max-width: 1160px)
+{
+    .video
+    {
+        width: 550px;
+        height: 400px;
+    }
+}
+
+@media  all and (max-width: 1080px)
+{
+    .video
+    {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media  all and (max-width: 991px)
+{
+    .video
+    {
+        width: 900px;
+        height: 400px;
+    }
+}
+
+@media  all and (max-width: 991px)
+{
+    .video
+    {
+        width: 800px;
+        height: 400px;
+    }
+}
+
+@media  all and (max-width: 880px)
+{
+    .video
+    {
+        width: 700px;
+        height: 400px;
+    }
+}
+@media  all and (max-width: 770px)
+{
+    .video
+    {
+        width: 600px;
+        height: 400px;
+    }
+}
+@media  all and (max-width: 670px)
+{
+    .video
+    {
+        width: 500px;
+        height: 400px;
+    }
+}
+@media  all and (max-width: 570px)
+{
+    .video
+    {
+        width: 400px;
+        height: 400px;
+    }
+}
+@media  all and (max-width: 470px)
+{
+    .video
+    {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+/* Foundation.css */
+.foundation
+{
+    background-color: #344966;
+    color: #f0f4ef;
+}
+
+@media all and (min-width: 370px) and (max-width: 470px)
+{
+    .foundation
+    {
+       padding-left: 100px !important;
+    }
+
+}
+
+@media all and (min-width: 470px) and (max-width:768px)
+{ 
+    .foundation
+    {
+       padding-left: 150px !important;
+    }
+
+}
+
+.fo-title
+{
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.fo-subtitle
+{
+  font-size: x-large;
+  font-weight:600;
+}
