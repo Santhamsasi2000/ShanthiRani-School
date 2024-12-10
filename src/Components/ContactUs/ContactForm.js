@@ -74,7 +74,6 @@ const ContactForm = () => {
             <p className="fw-semibold fs-6 mb-3 text-secondary">
               Feel free to share your experience, queries, concerns, doubts, or anything else using the form below.
             </p>
-
             <div className="input-box mb-4">
               <label className="label-color fw-bold" htmlFor="studentName">
                 Student's Name

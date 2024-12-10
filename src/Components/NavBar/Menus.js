@@ -14,19 +14,41 @@ const Menus = () => {
             <li><NavLink to="/admissionform" className="dropdown-item">Admission Enquiry Form</NavLink></li>
           </ul>
       </div>
-      <NavLink to="/student" className="navlink px-sm-4 py-sm-1">STUDENTS</NavLink>
-      <NavLink to="/facilities" className="navlink  px-sm-4 py-sm-1">FACILITIES</NavLink>
+      <div className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ABOUT US
+          </a>
+          <ul className="dropdown-menu">
+            <li><NavLink to="/about" className="dropdown-item">OUR ABOUT</NavLink></li>
+            <li><NavLink to="/discipline" className="dropdown-item">DISCIPLINARY INSTRUCTIONS</NavLink></li>
+            <li><NavLink to="/parents" className="dropdown-item">PARENTS CO-OPERATION</NavLink></li>
+            <li><NavLink to="/rules" className="dropdown-item">RULES AND REGULATIONS</NavLink></li>
+            <li><NavLink to="/events" className="dropdown-item">CELEBRATIONS</NavLink></li>
+            <li><NavLink to="/otherservices" className="dropdown-item">OTHER SERVICES</NavLink></li>
+          </ul>
+      </div>
+      <div className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            STUDENTS
+          </a>
+          <ul className="dropdown-menu">
+            <li><NavLink to="/academics" className="dropdown-item">ACADEMICS</NavLink></li>
+            <li><NavLink to="/toppers" className="dropdown-item">TOPPERS</NavLink></li>
+            <li> <NavLink to="/facilities" className="dropdown-item">FACILITIES</NavLink></li>
+            <li> <NavLink to="/house" className="dropdown-item">HOUSE</NavLink></li>
+            <li> <NavLink to="/syallbus" className="dropdown-item">SYALLBUS</NavLink></li>
+          </ul>
+      </div>
       <div className="nav-item dropdown">
           <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             FEES
           </a>
           <ul className="dropdown-menu">
-            <li><NavLink to="/fees" className="dropdown-item">Fees Structure</NavLink></li>
-            <li><NavLink to="/payment" className="dropdown-item">Online Payment</NavLink></li>
+            <li><NavLink to="/fees24-25" className="dropdown-item">2024-2025</NavLink></li>
+            <li><NavLink to="/fees25-26" className="dropdown-item">2025-2026</NavLink></li>
           </ul>
       </div>
       <NavLink to="/contact" className="navlink px-sm-4 py-sm-1">CONTACT US</NavLink>
-     
     </section>
   )
 }

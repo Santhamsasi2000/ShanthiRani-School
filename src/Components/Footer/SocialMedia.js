@@ -1,7 +1,7 @@
-import React from 'react';
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
+import { SiWhatsapp } from "react-icons/si";
 
 const SocialMedia = () => {
   return (
@@ -18,6 +18,10 @@ const SocialMedia = () => {
         <div className='media-icons bg-white d-flex justify-content-center align-items-center'>
           <a className='fs-5 navcolor pb-1'  href='https://www.youtube.com/@shanthiranimatrichr.sec.sc9160/featured'
           target='_blank' rel='noopener noreferrer'> <FaYoutube /></a>
+        </div>
+        <div className='media-icons bg-white d-flex justify-content-center align-items-center'>
+          <a className='fs-5 navcolor pb-1' href='https://www.facebook.com/profile.php?id=124470647731014&_rdr' 
+          target='_blank'  rel="noopener noreferrer"><SiWhatsapp /></a>
         </div>
       </div>
     </div>

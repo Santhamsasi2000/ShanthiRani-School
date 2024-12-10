@@ -1,4 +1,4 @@
-export const FeesData = [
+export const ThisFeesData = [
     {
         id:1,
         std: "Pre Kg",
@@ -121,7 +121,7 @@ export const FeesData = [
     },
 ];
 
-export const FeesData1 = [
+export const NextFeesData = [
     {
         id:1,
         std: "Pre Kg",

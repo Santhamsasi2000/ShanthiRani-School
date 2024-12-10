@@ -14,3 +14,13 @@
 {
     color: white;
 }
+
+.footer .footer-Links:hover
+{
+    text-decoration: underline !important;
+}
+
+.media-icons:hover
+{
+    background-color:bisque !important;
+}

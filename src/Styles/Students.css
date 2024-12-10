@@ -41,3 +41,17 @@
         height: 250px;
     }
 }
+
+/* SchoolTopper.css */
+
+.toppers-img
+{
+    height: auto;
+    width: 100%;
+}
+
+/* Syallbus.css */
+th,td
+{
+    padding: 10px;
+}

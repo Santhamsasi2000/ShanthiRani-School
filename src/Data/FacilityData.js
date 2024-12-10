@@ -26,7 +26,7 @@ export const FacilityData = [
     {
         id:5,
         image:"/images/Facilities/Kinder-Play.jpeg",
-        title:"KinderGraden Play Area",
+        title:"Kinder Graden Play Area",
         desc:"Kindergarten play areas foster creativity, physical health, and social interaction. Play-based activities improve motor skills, teamwork, and problem-solving skills. At SHANTHI RANI, we create safe and engaging play areas that inspire joyful learning."
     },
     {

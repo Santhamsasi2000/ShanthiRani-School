@@ -12,7 +12,7 @@ const Foundation = () => {
               <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)} >
                 <p className="fo-subtitle">
                   {
-                  counterOn && <CountUp start={0} end={25} duration={1} delay={0} separator="" />
+                  counterOn && <CountUp start={0} end={28} duration={2} delay={0} separator="" />
                   } YEARS
                 </p>
               </ScrollTrigger> 

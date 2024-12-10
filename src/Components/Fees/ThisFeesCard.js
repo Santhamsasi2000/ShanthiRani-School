@@ -1,11 +1,11 @@
 import React from 'react';
-import { FeesData } from '../../Data/FeesData';
+import { ThisFeesData } from '../../Data/FeesData';
 
-const FeesCard = () => {
+const ThisFeesCard = () => {
   return (
     <>
      {
-         FeesData.map(({id,std,term1,term2,term3,annual})=>(
+         ThisFeesData.map(({id,std,term1,term2,term3,annual})=>(
             <>
             <tr key={id}>
               <td className='text-uppercase fw-bold px-1 py-2 p-sm-3'>{std}</td>
@@ -21,4 +21,4 @@ const FeesCard = () => {
   )
 }
 
-export default FeesCard
+export default ThisFeesCard

@@ -9,7 +9,7 @@ const AdmissionForm = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "8b1b8d98-b9ab-4031-ad0c-05a23978adf8");
+    formData.append("access_key", "9afd317d-caf1-43f7-82ed-c9719737eff7");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

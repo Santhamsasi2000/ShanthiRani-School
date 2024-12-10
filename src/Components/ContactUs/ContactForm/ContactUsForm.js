@@ -10,7 +10,7 @@ const ContactUsForm = () => {
   const onSubmit = async (values, { resetForm, setSubmitting }) => {
     const formData = new FormData();
     Object.keys(values).forEach((key) => formData.append(key, values[key]));
-    formData.append("access_key", "8b1b8d98-b9ab-4031-ad0c-05a23978adf8");
+    formData.append("access_key", "9afd317d-caf1-43f7-82ed-c9719737eff7");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -22,8 +22,8 @@ const ContactUsForm = () => {
       if (data.success) {
         const { default: Swal } = await import("sweetalert2");
         Swal.fire({
-          title: "Message Sent!",
-          text: "Thanks for contacting us. You will receive a response within two hours. If you do not receive a response from us, please call 6382174912.",
+          title: "MESSAGE SENT !",
+          text: "Thanks for contacting us. You will receive a response within two hours. If you do not receive a response from us, please call '6382174912'.",
           icon: "success",
         });
         resetForm();
@@ -65,7 +65,7 @@ const ContactUsForm = () => {
           <Form className="w-100">
             <p className="title fs-4 fw-bold mb-1">GET IN TOUCH</p>
             <p className="fw-semibold fs-6 mb-3 text-secondary">
-              Feel free to share your experience, queries, concerns, or anything else using the form below.
+            Feel free to use the below form to share your experience, questions, concerns, or Admission Enquiry.
             </p>
 
             <FormField name="studentName" label="Student's Name" placeholder="Enter Student's Name*" />
@@ -73,7 +73,7 @@ const ContactUsForm = () => {
             <FormField name="email" label="Email Address (Optional)" type="email" placeholder="Enter Your Email Id" />
             <FormField name="mobileNumber" label="Mobile Number" placeholder="Enter Your Mobile Number*" />
             <FormField name="subject" label="Subject" placeholder="Enter the Subject*" />
-            <FormField name="message" label="Message (Optional)" as="textarea" placeholder="Your Message" />
+            <FormField name="message" label="Message (Optional)" as="textarea" placeholder="Your Message" style={{height:"200px",padding:"10px"}}/>
 
             <button
               type="submit"
