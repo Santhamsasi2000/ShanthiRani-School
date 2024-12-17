@@ -7,7 +7,7 @@ export const FacilityData = [
     },
     {
         id:2,
-        image:"/images/Facilities/Smart Board.jpg",
+        image:"/images/Facilities/Smart Board2.jpg",
         title:"Smart Board For Teaching",
         desc:"Teachers can create interactive and engaging lessons with smart boards. Multimedia presentations enhance student participation and accommodate diverse learning styles. With SHANTHI RANI, students benefit from dynamic, tech-driven education."
     },
@@ -19,7 +19,7 @@ export const FacilityData = [
     },
     {
         id:4,
-        image:"/images/Facilities/School-Bus.jpg",
+        image:"/images/Facilities/Bus.jpg",
         title:"Transport",
         desc:"School transport ensures students' safety and punctuality. Shared transportation minimizes environmental impact, reduces commuting stress, and supports regular attendance. We prioritize secure and efficient transport for students and their parents at SHANTHI RANI.  "
     },

@@ -2,10 +2,10 @@
 const Syallbus = () => {
   return (
     <section className="m-5">
-       <p className="title fw-bold text-center fs-3 text-decoration-underline mb-5">SYALLBUS AND SUBJECTS</p>
+       <p className="title fw-bold text-center fs-3 text-decoration-underline mb-4 mb-md-5">SYALLBUS AND SUBJECTS</p>
        <div className="row mb-5">
          <div className="col- col-md-6">
-            <img src="/images/Students/Syallbus/Children.jpg" alt="No-Image" className="w-100 block-image rounded-4"/>
+            <img src="/images/Students/Syallbus/Children.jpg" alt="No-Image" className="w-100 block-image rounded-4 mb-4 mb-md-0"/>
          </div>
          <div className="col- col-md-6">
             <p className="fw-bold fs-5">SAPIENCE PUBLICATIONS</p>
@@ -18,8 +18,8 @@ const Syallbus = () => {
                 <li>SCIENCE</li>
                 <li>SOCIAL SCIENCE</li>
             </ul>
-            <button className="btn btn-primary">KNOW MORE</button>
-         </div>
+            <a className="btn btn-primary px-4 py-2 shadow-sm" href="https://sapiencepublications.com/" target="_blank" rel="noopener noreferrer"aria-label="Learn more about Sapience Publications">LEARN MORE</a>
+          </div>
        </div>
        <div className="row mb-5">
          <div className="col- col-md-6">
@@ -36,7 +36,7 @@ const Syallbus = () => {
                 <li>SCIENCE</li>
                 <li>SOCIAL SCIENCE</li>
             </ul>
-            <button className="btn btn-primary">KNOW MORE</button>
+            <a className="btn btn-primary px-4 py-2 shadow-sm" href="https://leadschool.in/" target="_blank" rel="noopener noreferrer"aria-label="Learn more about Sapience Publications">LEARN MORE</a>
          </div>
        </div>
        <div className="row mb-5">

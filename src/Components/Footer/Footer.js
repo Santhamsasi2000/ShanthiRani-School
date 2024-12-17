@@ -3,13 +3,13 @@ import "../../Styles/Footer.css";
 import { SlLocationPin } from "react-icons/sl";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { LuPhoneCall } from "react-icons/lu";
-import { NavLink,useNavigate } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 
 const Footer = () => {
   return (
     <section className='footer mt-5 px-5 py-5 row gy-4 gy-sm-5 justify-content-between'>
        <div className='col- col-sm-6 col-lg-3'>
-        <img className="header rounded-circle" src='/images/Home/6.jpg' alt='No-Image'/>
+        <img className="header rounded-circle" src='/images/Home/Logo.jpg' alt='No-Image'/>
         <p className='fw-bold fs-3 mb-1 mt-2'>SHANTHI RANI</p>
         <p className='fw-semibold'>Higher Secondary School</p>
         <SocialMedia/>

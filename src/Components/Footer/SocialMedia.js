@@ -20,8 +20,9 @@ const SocialMedia = () => {
           target='_blank' rel='noopener noreferrer'> <FaYoutube /></a>
         </div>
         <div className='media-icons bg-white d-flex justify-content-center align-items-center'>
-          <a className='fs-5 navcolor pb-1' href='https://www.facebook.com/profile.php?id=124470647731014&_rdr' 
-          target='_blank'  rel="noopener noreferrer"><SiWhatsapp /></a>
+          <a href="https://wa.me/916382174912" className='fs-5 navcolor pb-1' target="_blank" rel="noopener noreferrer">
+            <SiWhatsapp />
+          </a>
         </div>
       </div>
     </div>
