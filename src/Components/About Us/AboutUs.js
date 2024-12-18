@@ -9,7 +9,7 @@ const AboutUs = () => {
         <p className='fw-bold'>MIRROR OF OUR SCHOOL</p> 
         <p className="lh-lg">Shanthi Rani Matric Higher Secondary School sprouted in the year 1997, with mere 35 students.  Even after the pandemic, we are thankful to the Almighty and proud to inform you that our perseverance and persistence has increased the strength of the students up to 1705.  At present our school excels with 77 teaching faculties and 30 non-teaching staff who are striving for the betterment of our Institution. </p>
         <p className='fw-bold'>MOTTO OF OUR SCHOOL</p> 
-        <p className='fw-semibold'>"Knowledge is to serve" </p>
+        <p className='fw-semibold'>"Knowledge is to serve"</p>
         <p className="lh-lg">Knowledge demonstrates a greater life and strengthens all of the highest 
         qualities in individuals who are engaged with it.</p>
     </section>

@@ -15,12 +15,24 @@
     color: white;
 }
 
-.footer .footer-Links:hover
-{
-    text-decoration: underline !important;
-}
-
 .media-icons:hover
 {
     background-color:bisque !important;
+}
+
+.footer .menu-Links
+{
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.footer .contact-links
+{
+    text-decoration: none;
+}
+
+.footer .menu-Links:hover,.footer .contact-links:hover
+{
+    text-decoration: underline;
 }

@@ -5,7 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/NavBar/Header";
 import Menus from "./Components/NavBar/Menus";
 import { Route, Routes } from "react-router";
-import Home from "./Components/Home/Home";
+import Home from "./Pages/Home";
 import AdmissionForm from "./Components/Admission/AdmissionForm";
 import Academics from "./Components/Students/Academics";
 import OtherServices from "./Components/About Us/OtherServices";
@@ -20,6 +20,7 @@ import Parents from "./Components/About Us/Parents";
 import HouseSystem from "./Components/Students/HouseSystem";
 import Syallbus from "./Components/Students/Syallbus";
 import AdmissionProcess from "./Pages/AdmissionProcess";
+import FormUptoXstd from "./Components/Admission/FormUptoXstd";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/admissionprocess" element={<AdmissionProcess/>} />
-        <Route path="/admissionform" element={<AdmissionForm />} />
+        <Route path="/admissionform" element={<FormUptoXstd/>} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/discipline" element={<Disciplinary />} />
         <Route path="/events" element={<Events />} />

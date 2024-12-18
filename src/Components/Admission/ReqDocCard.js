@@ -7,11 +7,11 @@ const ReqDocCard = () => {
          ReqDocData.map(({id,nameOfDoc,whose,original,xerox})=>(
             <>
             <tr>
-              <td className='text-uppercase px-0 py-2 p-sm-3'>{id}</td>
-              <td className='text-uppercase px-0 py-2 p-sm-3'>{nameOfDoc}</td>
-              <td className='text-uppercase px-0 py-2 p-sm-3'>{whose}</td>
-              <td className='px-0 py-2 p-sm-3'>{original}</td>
-              <td className='px-0 py-2 p-sm-3'>{xerox}</td>
+              <td className='text-uppercase doc-data'>{id}</td>
+              <td className='text-uppercase doc-data'>{nameOfDoc}</td>
+              <td className='text-uppercase doc-data'>{whose}</td>
+              <td className="doc-data">{original}</td>
+              <td className="doc-data">{xerox}</td>
             </tr>
             </>
           ))

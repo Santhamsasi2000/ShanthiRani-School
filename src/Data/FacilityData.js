@@ -25,7 +25,7 @@ export const FacilityData = [
     },
     {
         id:5,
-        image:"/images/Facilities/Kinder-Play.jpeg",
+        image:"/images/Facilities/Kinder-Play.jpg",
         title:"Kinder Graden Play Area",
         desc:"Kindergarten play areas foster creativity, physical health, and social interaction. Play-based activities improve motor skills, teamwork, and problem-solving skills. At SHANTHI RANI, we create safe and engaging play areas that inspire joyful learning."
     },
@@ -49,7 +49,7 @@ export const FacilityData = [
     },
     {
         id:9,
-        image:"/images/Facilities/Auditorium.jpeg",
+        image:"/images/Facilities/Auditorium.jpg",
         title:"Auditorium",
         desc:"Any school needs an auditorium for events, performances, and gatherings. The program fosters creativity, self-expression, and teamwork. At SHANTHI RANI, our auditorium is a cornerstone for nurturing talent and hosting impactful educational experiences."
     },
@@ -94,5 +94,11 @@ export const FacilityData = [
         image:"/images/Facilities/Table-Tennis.jpg",
         title:"Indoor Games",
         desc:"Indoor games like table tennis foster mental agility, focus, and teamwork. Reduces stress and improves concentration. All skill levels and weather conditions can play indoor games. Through table tennis, students develop their physical and mental skills."
+    },
+    {
+        id:17,
+        image:"/images/Facilities/Playground.jpg",
+        title:"Play Ground",
+        desc:"Playgrounds are essential for schools as they promote physical activity, improve children's health, and foster social skills like teamwork and communication. They provide a safe space for students to play, reduce stress, and enhance focus in the classroom, contributing to overall physical and mental development."
     },
 ];

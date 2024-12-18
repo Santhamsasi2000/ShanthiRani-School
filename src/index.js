@@ -13,6 +13,10 @@ import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 import AdmissionProcess from "./Pages/AdmissionProcess";
 import Facilities from "./Components/Facilities/Facilities";
+import Syallbus from "./Components/Students/Syallbus";
+import ReqDocuments from "./Components/Admission/ReqDocuments";
+import SmartClass from "./Components/Home/SmartClass";
+import FacilitiesHome from "./Components/Home/FacilitiesHome";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

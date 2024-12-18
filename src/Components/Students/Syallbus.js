@@ -1,7 +1,7 @@
 
 const Syallbus = () => {
   return (
-    <section className="m-5">
+    <section className="m-3 m-sm-5">
        <p className="title fw-bold text-center fs-3 text-decoration-underline mb-4 mb-md-5">SYALLBUS AND SUBJECTS</p>
        <div className="row mb-5">
          <div className="col- col-md-6">
