@@ -17,6 +17,7 @@ import Syallbus from "./Components/Students/Syallbus";
 import ReqDocuments from "./Components/Admission/ReqDocuments";
 import SmartClass from "./Components/Home/SmartClass";
 import FacilitiesHome from "./Components/Home/FacilitiesHome";
+import Home from "./Pages/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +25,7 @@ root.render(
     <React.StrictMode>
       <ScrollToTop/>
       <App/>
+      {/* <Home/> */}
     </React.StrictMode>
   </BrowserRouter>
 );

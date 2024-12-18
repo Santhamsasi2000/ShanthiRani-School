@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 const FacilitiesHome = () => {
   return (
-    <section className='p-2 p-sm-5 row align-items-center justify-content-between'>
+    <section className='p-3 p-sm-5 row align-items-center justify-content-between mb-4 mb-sm-0'>
     <div className='col-12 col-lg-6 text-center'>
        <img className="rounded w-100" src='/images/Home/Facilities-Home.jpg' alt='No-Image'/>
     </div>
