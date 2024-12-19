@@ -1,7 +1,7 @@
 export const EventsData = [
     {
         id:1,
-        image:"/images/AboutUs/Celebrations/INVESTITURE.jpeg",
+        image:"/images/AboutUs/Celebrations/INVESTITURE.jpg",
         title:"INVESTITURE CEREMONY",
         desc:"Shanthi Rani Matric Hr. Sec. School’s aim is to create leaders of tomorrow and there is a special ceremony not just about providing titles, but about conferring responsibilities to the students, to take charge of the school and take it to the height they desire with their leadership and decision making skills, communication and team work. At this ceremony, our school prefectorial board is formed after scrutinous interviewing and selection which gives them a feel of functioning of an official administrative body. The selected students are honored with their respective badges such as Head Boy, Head Girl, House Captain, Vice Captain and the student council members take an oath to faithfully work for the school. Our Principal Rev.Sr. Sudha encouraged them to make honest efforts for every endeavor and become an inspiration for others."
     },

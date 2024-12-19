@@ -18,6 +18,9 @@ import ReqDocuments from "./Components/Admission/ReqDocuments";
 import SmartClass from "./Components/Home/SmartClass";
 import FacilitiesHome from "./Components/Home/FacilitiesHome";
 import Home from "./Pages/Home";
+import Disciplinary from "./Components/About Us/Disciplinary";
+import OtherServices from "./Components/About Us/OtherServices";
+import HouseSystem from "./Components/Students/HouseSystem";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,7 +28,7 @@ root.render(
     <React.StrictMode>
       <ScrollToTop/>
       <App/>
-      {/* <Home/> */}
+      {/* <HouseSystem/> */}
     </React.StrictMode>
   </BrowserRouter>
 );

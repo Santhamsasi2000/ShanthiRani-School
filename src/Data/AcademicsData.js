@@ -9,7 +9,7 @@ export const AcademicsData = [
     {
         id:2,
         image:"/images/Students/Acdemics/Louis-Block.jpg",
-        title:"St. Louis Block",
+        title:"St. Louise Block",
         standard:"FROM I std to VIII std",
         desc:"The Louis Block at Shanthi Rani School caters to students from 1st to 8th standards, offering a dynamic and engaging learning environment. For students in 1st to 5th standards, advanced smart board teaching is integrated into the curriculum through the innovative Lead Academy syllabus. This modern approach enhances understanding and ensures a well-rounded educational experience. Louis Block is a hub of academic growth, encouraging students to excel both inside and outside the classroom."
     },

@@ -2,6 +2,14 @@ const Disciplinary = () => {
   return (
     <section className="m-3 m-sm-5">
        <p className='title text-center fw-bold fs-3 text-decoration-underline mb-4'>DISCIPLINARY INSTRUCTIONS</p>
+       <div className="row mb-4">
+         <div className="col-md-6 mb-3 mb-md-0">
+            <img className="rounded-3 w-100" src="/images/AboutUs/Discipline.jpg" alt="No-Image"/>
+         </div>
+         <div className="col-md-6">
+            <img className="rounded-3 w-100" src="/images/AboutUs/Discipline2.jpg" alt="No-Image"/>
+         </div>
+       </div>
        <ol className="lh-lg">
          <li>A person is judged by his/her manners. Therefore students should be obedient and respectful to teachers and elders and wish them warmly wherever they meet them, at school and outside.</li>
          <li>Since cleanliness is next to Godliness, every student should consider cleanliness of dress and person as essential virtues. Students should cut their nails properly. Boys should cut their hair neatly without depicting any style.</li>

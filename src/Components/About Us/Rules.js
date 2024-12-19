@@ -33,12 +33,12 @@ const Rules = () => {
             <th>Standards</th>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
+            <td>LKG - 9th Standard</td>
+            <td>08.00 AM - 03.45 PM</td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
+            <td>10th Standard - 12th Standard</td>
+            <td>08.00 AM - 05.30 PM</td>
           </tr>
         </table>
     </section>

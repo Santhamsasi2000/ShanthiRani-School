@@ -1,6 +1,7 @@
 import React from 'react';
 import "../../Styles/Fees.css";
 import NextFeesCard from './NextFeesCard';
+import FeesRules from './FeesRules';
 
 const NextFees = () => {
   return (
@@ -23,32 +24,7 @@ const NextFees = () => {
               </tbody>
             </table>
        </div>
-       <p className="fw-semibold mt-4">Rules and Regulation For School Fees:</p>
-       <ol>
-         <li>The School Fee is collected for 12 months of the year.</li>
-         <li>The Fees should be paid whole at the time of admission or in three terms.</li>
-         <li>The student will not be permitted to write the terminal examination unless all fees due have been paid.</li>
-         <li>Fees once paid will not be refunded in whole or in part under any circumstances.</li>
-         <li>Students who remain absent for a long or short period of time, with or without permission, cannot be exempted from payment of fees.</li>
-       </ol>
-       <table>
-         <tr>
-           <th>Terms</th>
-           <th>Last Date of Payment</th>
-         </tr>
-         <tr>
-          <td>I Term</td>
-          <td>Before or on July 1</td>
-         </tr>
-         <tr>
-          <td>II Term</td>
-          <td>Before or on October 1</td>
-         </tr>
-         <tr>
-          <td>III Term</td>
-          <td>Before or on January 1</td>
-         </tr>
-       </table>
+       <FeesRules/>
     </section>
   )
 }

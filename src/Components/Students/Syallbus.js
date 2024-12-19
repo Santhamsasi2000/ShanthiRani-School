@@ -15,8 +15,8 @@ const Syallbus = () => {
                 <li>TAMIL</li>
                 <li>ENGLISH</li>
                 <li>MATHEMATICS</li>
-                <li>SCIENCE</li>
-                <li>SOCIAL SCIENCE</li>
+                <li>EVS (Environmental Studies or Environmental Science)</li>
+                <li>GENERAL AWARENESS</li>
             </ul>
             <a className="btn btn-primary px-4 py-2 shadow-sm" href="https://sapiencepublications.com/" target="_blank" rel="noopener noreferrer"aria-label="Learn more about Sapience Publications">LEARN MORE</a>
           </div>
@@ -31,10 +31,11 @@ const Syallbus = () => {
             <p className="fw-bold text-decoration-underline">Subjects</p>
             <ul>
                 <li>TAMIL</li>
-                <li>ENGLISH</li>
+                <li>ELGA (English Language and General Awareness)</li>
                 <li>MATHEMATICS</li>
-                <li>SCIENCE</li>
-                <li>SOCIAL SCIENCE</li>
+                <li>EVS</li>
+                <li>CCS (Coding and Computational Skills)</li>
+                <li>HINDI</li>
             </ul>
             <a className="btn btn-primary px-4 py-2 shadow-sm" href="https://leadschool.in/" target="_blank" rel="noopener noreferrer"aria-label="Learn more about Sapience Publications">LEARN MORE</a>
          </div>
