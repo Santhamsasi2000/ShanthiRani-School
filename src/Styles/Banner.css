@@ -1,0 +1,26 @@
+.banner-container {
+    background-image: url("../../public/images/Home/Banner.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+  
+  
+  .banner-overlay 
+  {
+      background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .btn1
+  {
+      background-color: #007bff;
+      color: white;
+  }
+  
+  .btn2
+  {
+      background-color: #fff;
+      color: #007bff;
+  }
+  
+  

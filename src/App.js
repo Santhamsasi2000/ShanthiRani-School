@@ -6,7 +6,6 @@ import Header from "./Components/NavBar/Header";
 import Menus from "./Components/NavBar/Menus";
 import { Route, Routes } from "react-router";
 import Home from "./Pages/Home";
-import AdmissionForm from "./Components/Admission/AdmissionForm";
 import Academics from "./Components/Students/Academics";
 import OtherServices from "./Components/About Us/OtherServices";
 import ThisFees from "./Components/Fees/ThisFees";
