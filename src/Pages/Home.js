@@ -9,7 +9,7 @@ import Banner from '../Components/Home/Banner';
 const Home = () => {
   return (
     <>
-      <Banner/>
+      {/* <Banner/> */}
       <About/>
       <SmartClass/>
       <FacilitiesHome/>
