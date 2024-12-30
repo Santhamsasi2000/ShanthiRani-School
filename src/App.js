@@ -24,8 +24,8 @@ import FormUptoXstd from "./Components/Admission/FormUptoXstd";
 function App() {
   return (
     <>
-      <Header />
-      <Menus />
+      {/* <Header /> */}
+      {/* <Menus /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/admissionprocess" element={<AdmissionProcess/>} />
@@ -46,7 +46,7 @@ function App() {
         <Route path="/fees25-26" element={<NextFees />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

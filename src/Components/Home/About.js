@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className='p-3 p-sm-5 row align-items-center justify-content-between'>
+    <section className='p-3 p-sm-5 row align-items-center justify-content-between mw-100'>
        <div className='col-12 col-lg-6 text-center'>
           <img className="rounded w-100 border border-1 border-primary" src='/images/Home/About.jpg' alt='No-Image'/>
        </div>

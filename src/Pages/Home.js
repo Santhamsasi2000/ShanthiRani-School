@@ -8,13 +8,13 @@ import Banner from '../Components/Home/Banner';
 
 const Home = () => {
   return (
-    <>
+    <section className='mw-100'>
       {/* <Banner/> */}
       <About/>
       <SmartClass/>
       <FacilitiesHome/>
       <Foundation/>
-    </>
+    </section>
   )
 }
 

@@ -7,7 +7,7 @@ export const FacilityData = [
     },
     {
         id:2,
-        image:"/images/Facilities/Smart Board2.jpg",
+        image:"/images/Facilities/Smart board2.jpg",
         title:"Smart Board For Teaching",
         desc:"Teachers can create interactive and engaging lessons with smart boards. Multimedia presentations enhance student participation and accommodate diverse learning styles. With SHANTHI RANI, students benefit from dynamic, tech-driven education."
     },

@@ -5,7 +5,7 @@ import ScrollTrigger from "react-scroll-trigger";
 const Foundation = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
-     <section className="foundation p-5 d-flex flex-column flex-md-row justify-content-center gap-2 gap-sm-5">
+     <section className="foundation p-5 d-flex flex-column flex-md-row justify-content-center gap-2 gap-sm-5 mw-100">
           <div className="d-flex flex-column flex-xl-row gap-2 gap-sm-5">
             <div>
               <p className="fo-title">OUR EXPERIENCE</p>
