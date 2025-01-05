@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 const FacilitiesHome = () => {
   return (
-    <section className='p-3 p-sm-5 row align-items-center justify-content-between mb-4 mb-sm-0 mw-100'>
-    <div className='col-12 col-lg-6 text-center'>
-       <img className="rounded w-100" src='/images/Home/Facilities-Home.jpg' alt='No-Image'/>
+    <section className='p-3 p-sm-5 p-lg-0 py-lg-5 row gx-0 align-items-center justify-content-center gap-5 mb-4 mb-sm-0'>
+    <div className='col-12 col-lg-5 text-center'>
+       <img className="rounded w-100 common-border" src='/images/Home/Facilities-Home.jpg' alt='No-Image'/>
     </div>
     <div className='col-12 col-lg-6 mt-4'>
       <p className='title fw-bold fs-4'>The Importance of All-Round Facilities in Education</p>

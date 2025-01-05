@@ -4,31 +4,21 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import FormUptoXstd from "./Components/Admission/FormUptoXstd";
-import ProcessDetails from "./Components/Admission/ProcessDetails";
-import Entrance from "./Components/Admission/Entrance";
-import ContactUs from "./Components/ContactUs/ContactUs";
-import ContactUsForm from "./Components/ContactUs/ContactForm/ContactUsForm";
+import Banner from "./Components/Home/Banner";
 import Footer from "./Components/Footer/Footer";
-import ScrollToTop from "./Components/ScrollToTop";
-import AdmissionProcess from "./Pages/AdmissionProcess";
-import Facilities from "./Components/Facilities/Facilities";
-import Syallbus from "./Components/Students/Syallbus";
-import ReqDocuments from "./Components/Admission/ReqDocuments";
-import SmartClass from "./Components/Home/SmartClass";
-import FacilitiesHome from "./Components/Home/FacilitiesHome";
 import Home from "./Pages/Home";
-import Disciplinary from "./Components/About Us/Disciplinary";
-import OtherServices from "./Components/About Us/OtherServices";
-import HouseSystem from "./Components/Students/HouseSystem";
+import About from "./Components/Home/About";
+import Foundation from "./Components/Home/Foundation";
+import SmartClass from "./Components/Home/SmartClass";
+import Facilities from "./Components/Facilities/Facilities";
+import FacilitiesHome from "./Components/Home/FacilitiesHome";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <ScrollToTop/>
       <App/>
-      {/* <HouseSystem/> */}
+      <Foundation/>
     </React.StrictMode>
   </BrowserRouter>
 );

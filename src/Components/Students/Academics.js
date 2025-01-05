@@ -3,7 +3,7 @@ import { AcademicsData } from '../../Data/AcademicsData'
 
 const Academics = () => {
   return (
-    <section className='m-4'>
+    <section className='p-3 p-sm-5'>
       <p className='title text-center fw-bold fs-3 text-decoration-underline mb-4'>ACADEMICS</p>
       {
         AcademicsData.map(({id,image,title,standard,desc})=>(

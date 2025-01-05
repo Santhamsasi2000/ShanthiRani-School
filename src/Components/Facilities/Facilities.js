@@ -4,7 +4,7 @@ import { FacilityData } from '../../Data/FacilityData';
 
 const Facilities = () => {
   return (
-    <section className='facilities m-3 m-sm-5'>
+    <section className='facilities p-3 p-sm-5'>
        <p className='title text-center fw-bold fs-3 text-decoration-underline'>FACILITIES</p>
        <div className='d-flex flex-wrap gap-5 justify-content-center'>
          {

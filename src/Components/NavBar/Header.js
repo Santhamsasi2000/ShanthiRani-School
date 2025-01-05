@@ -1,4 +1,4 @@
-import React from 'react';
+import "../../Styles/Header.css";
 import "../../Styles/Home.css";
 import { NavLink } from 'react-router-dom';
 import { IoMdCall } from "react-icons/io";

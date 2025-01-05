@@ -1,7 +1,7 @@
 import ReqDocCard from "./ReqDocCard"
 const ReqDocuments = () => {
   return (
-    <section className="m-5">
+    <section>
         <p className='fw-bold'>Required Documents For AdmissionProcess :</p>
         <div className="d-flex justify-content-center mt-3">
          <table className="table">

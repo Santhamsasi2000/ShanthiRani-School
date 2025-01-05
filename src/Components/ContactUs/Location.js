@@ -6,7 +6,7 @@ import Direction from "./Direction";
 const Location = () => {
   return (
     <section className='contact'>
-      <div className="mb-5">
+      <div className="mb-3 mb-sm-5">
         <div className="">
           <p className="fw-bold fs-4 title mb-0">SHANTHI RANI</p>
           <p className="fw-semibold title">Higher Secondary School</p>
