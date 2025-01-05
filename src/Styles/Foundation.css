@@ -16,7 +16,7 @@
   font-size: x-large;
   font-weight:600;
 }
-/* @media all and (min-width: 370px) and (max-width: 470px)
+@media all and (min-width: 370px) and (max-width: 470px)
 {
     .foundation
     {
@@ -32,4 +32,4 @@
        padding-left: 150px !important;
     }
 
-} */
+}
