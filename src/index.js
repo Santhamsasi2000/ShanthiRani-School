@@ -18,7 +18,6 @@ root.render(
   <BrowserRouter>
     <React.StrictMode>
       <App/>
-      <Foundation/>
     </React.StrictMode>
   </BrowserRouter>
 );
