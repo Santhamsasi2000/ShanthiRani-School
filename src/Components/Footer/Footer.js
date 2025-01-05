@@ -7,7 +7,7 @@ import { NavLink} from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <section className='footer mt-5 px-5 py-5 row gy-4 gy-sm-5 justify-content-between mw-100'>
+    <section className='footer mt-0 p-3 p-sm-5 row gy-4 gy-sm-5 gx-0 justify-content-between'>
        <div className='col- col-sm-6 col-lg-3'>
         <p className='fw-bold fs-4 mb-1 mt-2 text-decoration-underline'>FOLLOW US</p>
         <p className='fw-semibold fs-6 mt-3'>Get Involved with SHANTHI RANI School Online</p>

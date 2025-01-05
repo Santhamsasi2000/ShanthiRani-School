@@ -31,7 +31,7 @@ const FormUptoXstd = () => {
   };
   return (
     <div className='p-5'>
-       <p className='title text-center fw-bold fs-3 mb-5'>ONLINE ADMISSION FORM</p>
+       <p className='title text-center fw-bold fs-4 mb-5 text-decoration-underline'>ONLINE ADMISSION FORM</p>
        <section className='d-flex justify-content-center'>
          <form onSubmit={onSubmit} className='w-100'>
             <p className='text-success fw-bold fs-5'>STUDENT DETAILS :</p>

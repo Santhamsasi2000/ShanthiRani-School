@@ -11,19 +11,19 @@ const FeesRules = () => {
        </ol>
        <table>
          <tr>
-           <th>Terms</th>
+           <th className="fees-term">Terms</th>
            <th>Last Date of Payment</th>
          </tr>
          <tr>
-          <td>I Term</td>
+          <td className="fees-term">I Term</td>
           <td>Within August 2nd Week</td>
          </tr>
          <tr>
-          <td>II Term</td>
+          <td className="fees-term">II Term</td>
           <td>Within November 2nd Week</td>
          </tr>
          <tr>
-          <td>III Term</td>
+          <td className="fees-term">III Term</td>
           <td>Within February 2nd Week</td>
          </tr>
        </table>

@@ -30,8 +30,8 @@ const AdmissionForm = () => {
     }
   };
   return (
-    <div className='p-5'>
-       <p className='title text-center fw-bold fs-3 mb-5'>ADMISSION ENQUIRY FORM</p>
+    <div className='p-3 p-sm-5'>
+       <p className='title text-center fw-bold fs-4 mb-5 text-decoration-underline'>ADMISSION ENQUIRY FORM</p>
        <section className='d-flex justify-content-center'>
          <form onSubmit={onSubmit} className='w-100'>
             <div className='input-box mb-4'>

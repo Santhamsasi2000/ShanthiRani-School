@@ -4,7 +4,7 @@ import Location from "./Location";
 
 const ContactUs = () => {
   return (
-    <section className="m-5 d-flex flex-column flex-md-row gap-5 justify-content-between ">
+    <section className="p-3 p-sm-5 d-flex flex-column flex-lg-row gap-5 justify-content-between">
        <Location/>
        <ContactUsForm/>
     </section>

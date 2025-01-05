@@ -4,7 +4,7 @@ import ReqDocuments from "../Components/Admission/ReqDocuments"
 
 const AdmissionProcess = () => {
   return (
-    <section className="m-3 m-sm-5">
+    <section className="p-3 p-sm-5">
       <ProcessDetails/>
       <Entrance/>
       <ReqDocuments/>

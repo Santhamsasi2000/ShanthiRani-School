@@ -4,11 +4,11 @@ const oldAgeNumber = "9715995914";
 
 const OtherServices = () => {
   return (
-    <section className='m-4'>
+    <section className='p-3 p-sm-5'>
        <p className='title text-center fw-bold fs-3 text-decoration-underline mb-4 mb-lg-5'>OTHER SERVICES</p>
        <div className='row mb-0 mb-lg-5'>
             <div className='col- col-lg-6'>
-              <img src='/images/Others/Tailoring-Center.jpg' alt='No-Image' className='services-img w-100 rounded order-2 mb-4 mb-lg-0'/>
+              <img src='/images/AboutUs/Others/Tailoring-Center.jpg' alt='No-Image' className='services-img w-100 rounded order-2 mb-4 mb-lg-0'/>
             </div>
             <div className='col- col-lg-6'>
                 <p className='fw-bold fs-4 order-1'>TAILORING CENTER</p>
@@ -49,7 +49,7 @@ const OtherServices = () => {
             </div>
           </div>
           <div className='col- col-lg-6 order-1 order-lg-2'>
-            <img src='/images/Others/Oldage-Home.jpg' alt='No-Image' className='services-img w-100 rounded mb-4 mb-lg-0'/>
+            <img src='/images/AboutUs/Others/Oldage-Home.jpg' alt='No-Image' className='services-img w-100 rounded mb-4 mb-lg-0'/>
           </div>
        </div>
     </section>

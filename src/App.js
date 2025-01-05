@@ -13,7 +13,7 @@ import NextFees from "./Components/Fees/NextFees";
 import SchoolToppers from "./Components/Students/Toppers/SchoolToppers";
 import Disciplinary from "./Components/About Us/Disciplinary";
 import AboutUs from "./Components/About Us/AboutUs";
-import Events from "./Components/About Us/Events";
+import Events from "./Components/About Us/Celebrations";
 import Rules from "./Components/About Us/Rules";
 import Parents from "./Components/About Us/Parents";
 import HouseSystem from "./Components/Students/HouseSystem";
@@ -24,12 +24,12 @@ import FormUptoXstd from "./Components/Admission/FormUptoXstd";
 function App() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Menus /> */}
+      <Header />
+      <Menus />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/admissionprocess" element={<AdmissionProcess/>} />
-        <Route path="/admissionform" element={<FormUptoXstd/>} />
+        <Route path="/admissionprocess" element={<AdmissionProcess />} />
+        <Route path="/admissionform" element={<FormUptoXstd />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/discipline" element={<Disciplinary />} />
         <Route path="/events" element={<Events />} />
@@ -40,13 +40,13 @@ function App() {
         <Route path="/academics" element={<Academics />} />
         <Route path="/toppers" element={<SchoolToppers />} />
         <Route path="/facilities" element={<Facilities />} />
-        <Route path="/house" element={<HouseSystem/>} />
-        <Route path="/syallbus" element={<Syallbus/>} />
+        <Route path="/house" element={<HouseSystem />} />
+        <Route path="/syallbus" element={<Syallbus />} />
         <Route path="/fees24-25" element={<ThisFees />} />
         <Route path="/fees25-26" element={<NextFees />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

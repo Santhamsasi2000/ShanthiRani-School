@@ -12,8 +12,8 @@ const ProcessDetails = () => {
 
   return (
     <div className="">
-      <p className="title text-center fw-bold fs-3">ADMISSION PROCESS</p>
-      <p className="title fw-bold fs-5">Choose Your Admission Path</p>
+      <p className="title text-center fw-bold fs-3 text-decoration-underline">ADMISSION PROCESS</p>
+      <p className="fw-bold fs-5">Choose Your Admission Path</p>
       <p className="mb-4">
         Here are three ways you can begin the admissions process in the best school.
       </p>

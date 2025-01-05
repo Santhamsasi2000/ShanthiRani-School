@@ -1,9 +1,18 @@
-.banner-container {
+.banner-container 
+{
     background-image: url("../../public/images/Home/Banner.jpg"); 
     background-size: cover;
     background-position: center;
     height: 400px;
-  }
+}
+
+@media (max-width:992px) 
+{
+    .banner-container 
+    {
+        height: 300px;
+    }
+}
   
   
   .banner-overlay 

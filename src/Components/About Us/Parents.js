@@ -1,9 +1,19 @@
-import React from 'react'
+import "../../Styles/About.css";
 
 const Parents = () => {
   return (
-    <section className="m-3 m-sm-5">
+    <section className="p-3 p-sm-5">
        <p className='title text-center fw-bold fs-3 text-decoration-underline mb-4'>PARENTS CO-OPERATION</p>
+       <div className="row mb-4">
+         <div className="col-md-6 mb-3 mb-md-0">
+            <img className="rounded-3 w-100 parents-height" src="/images/AboutUs/Parents/Parent1.jpg" alt="No-Image"/>
+         </div>
+         <div className="col-md-6">
+            <img className="rounded-3 w-100 parents-height" src="/images/AboutUs/Parents/Parent2.jpg" alt="No-Image"/>
+         </div>
+       </div>
+
+       <>
        <p>Since education begins at home, a joint effort by parents and school alone will bring about the all-round development of their children. Parents are expected:</p>
        <ol className="lh-lg">
          <li>To inculcate in their children love for order and punctuality, a sense of cleanliness and friendliness, and self-discipline.</li>
@@ -18,6 +28,7 @@ const Parents = () => {
          <li>Parents or guardians are allowed to meet the class teacher of their children to enquire about their progress from 4:00 P.M. to 4:30 P.M. on working days.</li>
          <li>The School does not guarantee the success of a pupil’s studies unless his/her parents co-operate with school authority and do their part in forcing regularity and discipline.</li>
        </ol>
+       </>
     </section>
   )
 }

@@ -48,7 +48,7 @@ const ContactUsForm = () => {
   ];
 
   return (
-    <section className="d-flex justify-content-center">
+    <section className="d-flex">
       <Formik
         initialValues={{
           studentName: "",
