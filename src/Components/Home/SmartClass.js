@@ -7,7 +7,7 @@ const videoDescription =
 const SmartClass = () => {
   return (
     <section className='p-3 p-sm-5 p-lg-0 py-lg-5 row justify-content-center gap-4 mb-4 mb-sm-0 gx-0'>
-      <div className='col- col-lg-5 order-2 order-lg-1 mt-3 mt-lg-0'>
+      <div className='col- col-lg-5 order-2 order-lg-1'>
         <p className='title fw-bold fs-4 text-uppercase'>{videoDescription.title}</p>
         <p className='lh-lg'>
           {videoDescription.content}

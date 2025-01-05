@@ -4,14 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import Banner from "./Components/Home/Banner";
-import Footer from "./Components/Footer/Footer";
-import Home from "./Pages/Home";
-import About from "./Components/Home/About";
-import Foundation from "./Components/Home/Foundation";
-import SmartClass from "./Components/Home/SmartClass";
-import Facilities from "./Components/Facilities/Facilities";
-import FacilitiesHome from "./Components/Home/FacilitiesHome";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
